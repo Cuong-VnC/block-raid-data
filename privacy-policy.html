@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Block Raid: Puzzle Kingdom — Privacy Policy / Chính Sách Quyền Riêng Tư</title>
+<style>
+  :root {
+    --bg: #0b0e1e;
+    --panel: #171d38;
+    --text: #f2f4ff;
+    --muted: #b9c0e4;
+    --accent: #4f8cff;
+    --accent2: #2aa15e;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    font-size: 17px;
+  }
+  .wrap { max-width: 820px; margin: 0 auto; padding: 24px 20px 64px; }
+  header.site {
+    text-align: center;
+    padding: 32px 16px 8px;
+  }
+  header.site h1 { font-size: 30px; margin: 0 0 8px; }
+  header.site p { color: var(--muted); margin: 4px 0; }
+  nav.lang {
+    display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;
+    margin: 20px 0 8px;
+  }
+  nav.lang a {
+    display: inline-block; padding: 12px 26px; border-radius: 14px;
+    background: var(--accent); color: #fff; text-decoration: none; font-weight: 600;
+  }
+  nav.lang a.vi { background: var(--accent2); }
+  section.policy {
+    background: var(--panel);
+    border-radius: 16px;
+    padding: 28px 26px;
+    margin-top: 28px;
+  }
+  section.policy h2 { font-size: 25px; margin-top: 0; }
+  section.policy h3 { font-size: 20px; margin-top: 28px; color: var(--accent); }
+  section.policy p, section.policy li { color: var(--text); }
+  section.policy ul { padding-left: 22px; }
+  .meta { color: var(--muted); font-size: 15px; }
+  .placeholder {
+    background: #3a2f10; border: 1px dashed #d8a723; border-radius: 8px;
+    padding: 2px 8px; font-family: monospace; font-size: 15px;
+  }
+  a { color: var(--accent); }
+  footer { text-align: center; color: var(--muted); font-size: 14px; margin-top: 36px; }
+  @media (max-width: 560px) {
+    body { font-size: 16px; }
+    section.policy { padding: 20px 16px; }
+    header.site h1 { font-size: 25px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="site">
+    <h1>Block Raid: Puzzle Kingdom</h1>
+    <p>Privacy Policy / Chính Sách Quyền Riêng Tư</p>
+    <p class="meta">Effective date: October 22, 2026 &middot; Ngày hiệu lực: 22/10/2026</p>
+    <nav class="lang">
+      <a href="#en">English</a>
+      <a class="vi" href="#vi">Tiếng Việt</a>
+    </nav>
+  </header>
+
+  <!-- ================= ENGLISH ================= -->
+  <section class="policy" id="en" lang="en">
+    <h2>Privacy Policy (English)</h2>
+    <p class="meta">Effective date: October 22, 2026 &middot; Last updated: October 22, 2026</p>
+
+    <h3>1. Who we are</h3>
+    <p>Block Raid: Puzzle Kingdom (the &ldquo;Game&rdquo;) is developed and published by
+    <span class="placeholder">[REPLACE: Block Raid Studio]</span>, an independent developer
+    (&ldquo;we&rdquo;, &ldquo;us&rdquo;). You can contact us about privacy at
+    <span class="placeholder">[REPLACE: privacy@blockraid.example]</span>.
+    <!-- TODO before deploying: replace the two placeholders above with the real developer name and a monitored contact email. -->
+    This policy explains what information the Game handles, why, and the choices you have.</p>
+
+    <h3>2. The short version</h3>
+    <p>Block Raid is an <strong>offline-first</strong> game. The core game works completely without
+    an internet connection and without an account. Your progress and settings are stored
+    <strong>only on your device</strong>. We do not sell your personal data. This version of the Game
+    contains <strong>no advertising</strong>.</p>
+
+    <h3>3. Information stored on your device</h3>
+    <p>The Game stores the following data locally on your device, in the app&rsquo;s private storage,
+    so your game can continue between sessions:</p>
+    <ul>
+      <li>Game progress: completed levels, scores and high scores, in-game currency (gold, diamonds), equipment and skins you own, and daily-challenge results.</li>
+      <li>Settings: music, sound, haptics, display and accessibility options, and your chosen language.</li>
+      <li>The time of your last idle-reward claim, used to calculate offline rewards.</li>
+    </ul>
+    <p>This local data never leaves your device unless you actively use one of the optional online
+    features described below. It is deleted when you clear the app&rsquo;s data or uninstall the Game
+    (see Section 9).</p>
+
+    <h3>4. Optional online features</h3>
+    <p><strong>Party multiplayer (peer-to-peer).</strong> If you choose to play party multiplayer,
+    your device connects directly to the other players&rsquo; devices (peer-to-peer). To establish that
+    connection, the Game uses the Firebase Realtime Database (a Google service) <em>transiently</em>
+    as a signaling channel: it temporarily exchanges a room code and the technical connection data
+    (SDP / ICE candidates) needed for the devices to find each other. This signaling data is
+    <strong>deleted after the session</strong> and is not used to build profiles. During a session,
+    the other players in your room can see your in-game display name and gameplay actions, and your
+    device&rsquo;s IP address is necessarily visible to the peers you connect to, as with any
+    peer-to-peer connection. We do not record or store match history on a server.</p>
+    <p><strong>Optional cloud save backup (off by default).</strong> Cloud backup is
+    <strong>disabled by default</strong>. Only if you turn it on in Settings is a copy of your save
+    data (progress and settings as listed in Section 3) uploaded to Firebase and associated with your
+    sign-in identity, so you can restore it on another device. You can turn it off at any time;
+    turning it off stops further uploads, and you can request deletion of the stored backup as
+    described in Section 9.</p>
+
+    <h3>5. Google Play Games Services</h3>
+    <p>If you sign in to Google Play Games Services (GPGS), the Game can use GPGS leaderboards,
+    achievements, and Google&rsquo;s own cloud-save feature. When you use these features, Google
+    processes your GPGS player identity, display name, scores, and achievement data under
+    <a href="https://policies.google.com/privacy">Google&rsquo;s Privacy Policy</a>. Signing in is
+    optional; the Game remains fully playable offline without it.</p>
+
+    <h3>6. Advertising</h3>
+    <p><strong>This version of the Game contains no advertising and no advertising SDKs</strong>, and
+    no data is collected for advertising. A future version may add advertising (for example via
+    Google AdMob). If that happens, this policy will be updated <em>before</em> ads are introduced,
+    the updated policy will describe the advertising data practices, and consent will be requested
+    where the law requires it (for example through Google&rsquo;s User Messaging Platform in the
+    EEA/UK).</p>
+
+    <h3>7. What we do not do</h3>
+    <ul>
+      <li>We do <strong>not sell</strong> your personal data, and we do not share it for third-party marketing.</li>
+      <li>We do not collect your precise location, contacts, photos, microphone, or camera.</li>
+      <li>We do not require an account, email address, or real name to play offline.</li>
+      <li>The signaling and cloud features above are provided through Google Firebase; Google acts as a service provider / processor for those functions.</li>
+    </ul>
+
+    <h3>8. Children&rsquo;s privacy</h3>
+    <p>The Game is a general-audience puzzle game and is not directed at children under 13 (or the
+    higher minimum age in your country). We do not knowingly collect personal information from
+    children. Because the core game is offline and account-free, children&rsquo;s gameplay data stays
+    on the device. If you are a parent or guardian and believe your child has provided us personal
+    information through an optional online feature, contact us at the email above and we will delete
+    it promptly.</p>
+
+    <h3>9. Data retention and deletion</h3>
+    <ul>
+      <li><strong>Local data:</strong> stored on your device until you clear the app data in your device settings or uninstall the Game.</li>
+      <li><strong>Multiplayer signaling data:</strong> room codes and connection data are deleted after the session ends.</li>
+      <li><strong>Cloud save backups (only if you enabled them):</strong> kept while the feature is on and your account exists. To delete your backup, turn cloud backup off in Settings and contact us at the email above; we will delete it within 30 days.</li>
+      <li><strong>GPGS data:</strong> managed by Google; you can manage or delete it in your Google Play Games settings.</li>
+    </ul>
+
+    <h3>10. Your rights (GDPR, CCPA/CPRA, and similar laws)</h3>
+    <p>Depending on where you live, you may have the right to: access the personal data we hold about
+    you; correct it; delete it; restrict or object to its processing; receive it in a portable
+    format; and withdraw consent (for example by turning off cloud backup or signing out of GPGS)
+    without affecting past lawful processing. Under the CCPA/CPRA, California residents also have
+    the right to know what is collected, the right to deletion, the right to opt out of
+    &ldquo;sale&rdquo; or &ldquo;sharing&rdquo; — we do neither — and the right not to be
+    discriminated against for exercising these rights. To exercise any right, contact us at the
+    email above; we will respond within the time required by applicable law (generally 30 days
+    under the GDPR and 45 days under the CCPA). You may also complain to your local data protection
+    authority.</p>
+
+    <h3>11. Security</h3>
+    <p>Local saves stay in the app&rsquo;s private storage on your device. Data sent to Firebase is
+    transmitted over encrypted (TLS) connections. No method of storage or transmission is perfectly
+    secure, but we limit what leaves the device in the first place: by default, nothing does.</p>
+
+    <h3>12. Changes to this policy</h3>
+    <p>If we change this policy, we will publish the updated version at this address with a new
+    &ldquo;last updated&rdquo; date, and material changes will be announced in the Game or on the
+    store listing before they take effect.</p>
+
+    <h3>13. Contact</h3>
+    <p><span class="placeholder">[REPLACE: Block Raid Studio]</span> &middot;
+    <span class="placeholder">[REPLACE: privacy@blockraid.example]</span></p>
+  </section>
+
+  <!-- ================= VIETNAMESE ================= -->
+  <section class="policy" id="vi" lang="vi">
+    <h2>Chính Sách Quyền Riêng Tư (Tiếng Việt)</h2>
+    <p class="meta">Ngày hiệu lực: 22/10/2026 &middot; Cập nhật lần cuối: 22/10/2026</p>
+
+    <h3>1. Chúng tôi là ai</h3>
+    <p>Block Raid: Puzzle Kingdom (&ldquo;Trò chơi&rdquo;) được phát triển và phát hành bởi
+    <span class="placeholder">[THAY THẾ: Block Raid Studio]</span>, một nhà phát triển độc lập
+    (&ldquo;chúng tôi&rdquo;). Bạn có thể liên hệ với chúng tôi về vấn đề quyền riêng tư qua email
+    <span class="placeholder">[THAY THẾ: privacy@blockraid.example]</span>.
+    <!-- TODO trước khi triển khai: thay hai vị trí giữ chỗ ở trên bằng tên nhà phát triển thật và email liên hệ có người theo dõi. -->
+    Chính sách này giải thích Trò chơi xử lý những thông tin nào, vì lý do gì, và bạn có những lựa chọn nào.</p>
+
+    <h3>2. Tóm tắt ngắn gọn</h3>
+    <p>Block Raid là trò chơi <strong>ưu tiên chơi ngoại tuyến (offline-first)</strong>. Phần chơi
+    chính hoạt động hoàn toàn không cần kết nối internet và không cần tài khoản. Tiến trình và cài
+    đặt của bạn chỉ được lưu <strong>trên thiết bị của bạn</strong>. Chúng tôi không bán dữ liệu cá
+    nhân của bạn. Phiên bản này của Trò chơi <strong>không chứa quảng cáo</strong>.</p>
+
+    <h3>3. Thông tin được lưu trên thiết bị của bạn</h3>
+    <p>Trò chơi lưu các dữ liệu sau ngay trên thiết bị của bạn, trong vùng lưu trữ riêng của ứng
+    dụng, để bạn có thể tiếp tục chơi giữa các lần mở game:</p>
+    <ul>
+      <li>Tiến trình chơi: các màn đã hoàn thành, điểm số và kỷ lục, tiền trong game (vàng, kim cương), trang bị và skin bạn sở hữu, kết quả thử thách hằng ngày.</li>
+      <li>Cài đặt: nhạc, âm thanh, rung, tùy chọn hiển thị và hỗ trợ tiếp cận, và ngôn ngữ bạn chọn.</li>
+      <li>Thời điểm nhận thưởng chờ (idle) gần nhất, dùng để tính phần thưởng khi bạn không chơi.</li>
+    </ul>
+    <p>Dữ liệu cục bộ này không bao giờ rời khỏi thiết bị của bạn, trừ khi bạn chủ động sử dụng một
+    trong các tính năng trực tuyến tùy chọn được mô tả bên dưới. Dữ liệu sẽ bị xóa khi bạn xóa dữ
+    liệu ứng dụng hoặc gỡ cài đặt Trò chơi (xem Mục 9).</p>
+
+    <h3>4. Các tính năng trực tuyến tùy chọn</h3>
+    <p><strong>Chơi nhiều người theo nhóm (kết nối ngang hàng — peer-to-peer).</strong> Nếu bạn chọn
+    chơi nhiều người, thiết bị của bạn sẽ kết nối trực tiếp với thiết bị của những người chơi khác
+    (ngang hàng). Để thiết lập kết nối đó, Trò chơi sử dụng Firebase Realtime Database (dịch vụ của
+    Google) <em>một cách tạm thời</em> làm kênh báo hiệu (signaling): hệ thống tạm thời trao đổi mã
+    phòng và dữ liệu kỹ thuật cần thiết cho kết nối (SDP / ICE candidates) để các thiết bị tìm thấy
+    nhau. Dữ liệu báo hiệu này <strong>được xóa sau khi phiên chơi kết thúc</strong> và không được
+    dùng để xây dựng hồ sơ người dùng. Trong một phiên chơi, những người chơi khác trong phòng có
+    thể thấy tên hiển thị trong game và thao tác chơi của bạn, và địa chỉ IP của thiết bị của bạn
+    nhất thiết sẽ hiển thị với các thiết bị ngang hàng mà bạn kết nối, giống như mọi kết nối ngang
+    hàng khác. Chúng tôi không ghi lại hay lưu trữ lịch sử trận đấu trên máy chủ.</p>
+    <p><strong>Sao lưu lưu trữ đám mây tùy chọn (mặc định tắt).</strong> Tính năng sao lưu đám mây
+    <strong>mặc định bị tắt</strong>. Chỉ khi bạn bật tính năng này trong Cài đặt, một bản sao dữ
+    liệu lưu game của bạn (tiến trình và cài đặt như liệt kê ở Mục 3) mới được tải lên Firebase và
+    gắn với danh tính đăng nhập của bạn, để bạn có thể khôi phục trên thiết bị khác. Bạn có thể tắt
+    tính năng này bất cứ lúc nào; việc tắt sẽ dừng mọi lần tải lên tiếp theo, và bạn có thể yêu cầu
+    xóa bản sao lưu đã lưu như mô tả ở Mục 9.</p>
+
+    <h3>5. Google Play Games Services</h3>
+    <p>Nếu bạn đăng nhập Google Play Games Services (GPGS), Trò chơi có thể sử dụng bảng xếp hạng,
+    thành tích của GPGS và tính năng lưu trữ đám mây riêng của Google. Khi bạn sử dụng các tính năng
+    này, Google xử lý danh tính người chơi GPGS, tên hiển thị, điểm số và dữ liệu thành tích của bạn
+    theo <a href="https://policies.google.com/privacy">Chính sách quyền riêng tư của Google</a>.
+    Việc đăng nhập là tùy chọn; Trò chơi vẫn chơi được đầy đủ khi ngoại tuyến mà không cần đăng nhập.</p>
+
+    <h3>6. Quảng cáo</h3>
+    <p><strong>Phiên bản này của Trò chơi không chứa quảng cáo và không tích hợp SDK quảng
+    cáo nào</strong>, và không có dữ liệu nào được thu thập cho mục đích quảng cáo. Một phiên bản
+    trong tương lai có thể bổ sung quảng cáo (ví dụ qua Google AdMob). Nếu điều đó xảy ra, chính
+    sách này sẽ được cập nhật <em>trước khi</em> quảng cáo được đưa vào, bản chính sách cập nhật sẽ
+    mô tả cách xử lý dữ liệu cho quảng cáo, và chúng tôi sẽ xin sự đồng ý ở những nơi luật pháp yêu
+    cầu (ví dụ thông qua Google User Messaging Platform tại EEA/Vương quốc Anh).</p>
+
+    <h3>7. Những việc chúng tôi không làm</h3>
+    <ul>
+      <li>Chúng tôi <strong>không bán</strong> dữ liệu cá nhân của bạn và không chia sẻ dữ liệu cho bên thứ ba để tiếp thị.</li>
+      <li>Chúng tôi không thu thập vị trí chính xác, danh bạ, ảnh, micro hay camera của bạn.</li>
+      <li>Chúng tôi không yêu cầu tài khoản, địa chỉ email hay tên thật để chơi ngoại tuyến.</li>
+      <li>Các tính năng báo hiệu và đám mây nêu trên được cung cấp thông qua Google Firebase; Google đóng vai trò nhà cung cấp dịch vụ / bên xử lý dữ liệu cho các chức năng đó.</li>
+    </ul>
+
+    <h3>8. Quyền riêng tư của trẻ em</h3>
+    <p>Trò chơi là game giải đố dành cho khán giả đại chúng và không hướng tới trẻ em dưới 13 tuổi
+    (hoặc độ tuổi tối thiểu cao hơn theo quy định tại quốc gia của bạn). Chúng tôi không cố ý thu
+    thập thông tin cá nhân từ trẻ em. Vì phần chơi chính hoạt động ngoại tuyến và không cần tài
+    khoản, dữ liệu chơi của trẻ em chỉ nằm trên thiết bị. Nếu bạn là phụ huynh hoặc người giám hộ
+    và tin rằng con bạn đã cung cấp thông tin cá nhân cho chúng tôi qua một tính năng trực tuyến tùy
+    chọn, hãy liên hệ qua email ở trên và chúng tôi sẽ xóa thông tin đó kịp thời.</p>
+
+    <h3>9. Lưu giữ và xóa dữ liệu</h3>
+    <ul>
+      <li><strong>Dữ liệu cục bộ:</strong> được lưu trên thiết bị của bạn cho đến khi bạn xóa dữ liệu ứng dụng trong phần cài đặt của thiết bị hoặc gỡ cài đặt Trò chơi.</li>
+      <li><strong>Dữ liệu báo hiệu khi chơi nhiều người:</strong> mã phòng và dữ liệu kết nối được xóa sau khi phiên chơi kết thúc.</li>
+      <li><strong>Bản sao lưu đám mây (chỉ khi bạn đã bật):</strong> được giữ trong thời gian tính năng còn bật và tài khoản của bạn còn tồn tại. Để xóa bản sao lưu, hãy tắt sao lưu đám mây trong Cài đặt và liên hệ với chúng tôi qua email ở trên; chúng tôi sẽ xóa trong vòng 30 ngày.</li>
+      <li><strong>Dữ liệu GPGS:</strong> do Google quản lý; bạn có thể quản lý hoặc xóa dữ liệu này trong phần cài đặt Google Play Games của mình.</li>
+    </ul>
+
+    <h3>10. Quyền của bạn (GDPR, CCPA/CPRA và các luật tương tự)</h3>
+    <p>Tùy thuộc vào nơi bạn sinh sống, bạn có thể có các quyền sau: quyền truy cập dữ liệu cá nhân
+    mà chúng tôi nắm giữ về bạn; quyền chỉnh sửa; quyền xóa; quyền hạn chế hoặc phản đối việc xử
+    lý; quyền nhận dữ liệu ở định dạng có thể chuyển đổi (portability); và quyền rút lại sự đồng ý
+    (ví dụ bằng cách tắt sao lưu đám mây hoặc đăng xuất GPGS) mà không ảnh hưởng đến tính hợp pháp
+    của việc xử lý trước đó. Theo CCPA/CPRA, cư dân California còn có quyền được biết dữ liệu nào
+    được thu thập, quyền xóa, quyền từ chối &ldquo;bán&rdquo; hoặc &ldquo;chia sẻ&rdquo; dữ liệu —
+    chúng tôi không thực hiện cả hai việc này — và quyền không bị phân biệt đối xử khi thực hiện
+    các quyền trên. Để thực hiện bất kỳ quyền nào, hãy liên hệ qua email ở trên; chúng tôi sẽ phản
+    hồi trong thời hạn luật pháp yêu cầu (thường là 30 ngày theo GDPR và 45 ngày theo CCPA). Bạn
+    cũng có thể khiếu nại tới cơ quan bảo vệ dữ liệu tại địa phương.</p>
+
+    <h3>11. Bảo mật</h3>
+    <p>Dữ liệu lưu game cục bộ nằm trong vùng lưu trữ riêng của ứng dụng trên thiết bị của bạn. Dữ
+    liệu gửi tới Firebase được truyền qua kết nối đã mã hóa (TLS). Không có phương thức lưu trữ
+    hay truyền tải nào an toàn tuyệt đối, nhưng chúng tôi giới hạn ngay từ đầu lượng dữ liệu rời
+    khỏi thiết bị: theo mặc định, không có dữ liệu nào rời khỏi thiết bị cả.</p>
+
+    <h3>12. Thay đổi chính sách này</h3>
+    <p>Nếu chúng tôi thay đổi chính sách này, chúng tôi sẽ đăng phiên bản cập nhật tại địa chỉ này
+    kèm ngày &ldquo;cập nhật lần cuối&rdquo; mới, và các thay đổi quan trọng sẽ được thông báo
+    trong Trò chơi hoặc trên trang cửa hàng trước khi có hiệu lực.</p>
+
+    <h3>13. Liên hệ</h3>
+    <p><span class="placeholder">[THAY THẾ: Block Raid Studio]</span> &middot;
+    <span class="placeholder">[THAY THẾ: privacy@blockraid.example]</span></p>
+  </section>
+
+  <footer>
+    <p>Block Raid: Puzzle Kingdom &middot; Privacy Policy &middot; Effective October 22, 2026</p>
+  </footer>
+
+</div>
+</body>
+</html>
